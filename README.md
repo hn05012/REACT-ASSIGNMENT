@@ -1,12 +1,29 @@
-# User management refactoring task
+# REACT-ASSIGNMENT
 
-The goal of this task is to refactor the code from running, but riddled with anti-patterns into good code that adheres to best practices and makes use of React's features to achieve a good architecture.
+## Project Overview
 
-The focus of this task should be to improve code quality. Do not add or remove features, and make sure the app still works after the refactoring. This also means that changing folder structure or project configuration is not part of this goal.
+This project involved refactoring an existing React application to enhance code quality, maintainability, and performance. The primary focus was to adhere to React best practices without altering the application's functionality or structure.
 
-# Refactoring changes
+## Key Refactoring Improvements
 
-- Removed globalThis usage
-- Moved state directly into component using useState
-- Added useCallback for handlers to optimize performance
-- updated types where neccesary
+- **State Management Optimization**: Replaced global state management with localized state using `useState` hooks within components to improve encapsulation and readability.
+
+- **Event Handler Optimization**: Implemented `useCallback` hooks for event handlers to prevent unnecessary re-renders and enhance performance.
+
+- **TypeScript Enhancements**: Updated and refined TypeScript types to ensure type safety and improve developer experience.
+
+- **Code Quality Improvements**: Removed anti-patterns and improved code structure for better maintainability.
+
+## Technologies Used
+
+- **React**: A JavaScript library for building user interfaces.
+
+- **TypeScript**: A superset of JavaScript that adds static typing.
+
+- **Vite**: A build tool that aims to provide a faster and leaner development experience.
+
+- **ESLint**: A static code analysis tool for identifying problematic patterns in JavaScript code.
+
+
+
+
